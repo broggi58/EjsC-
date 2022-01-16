@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Moneda
 {
-    class Peso : Dinero
+    public class Peso : Dinero
     {
 
 
@@ -20,18 +20,18 @@ namespace Moneda
             this.Cantidad = cantidad;
         }
 
-        public static explicit operator Peso(Euro e)
+        public static explicit operator Euro(Peso p)
         {
-            Peso p = new Peso(e.Cantidad);
-            p.Cantidad = e.Cantidad * e.CotizRespectoDolar;
-            return p;
+            Euro e = new Euro(p.Cantidad);
+            e.Cantidad = p.Cantidad / e.CotizRespectoDolar /p.CotizRespectoDolar;
+            return e;
         }
 
-        public static explicit operator Peso(Dolar d)
+        public static explicit operator Dolar(Peso p)
         {
-            Peso p = new Peso(d.Cantidad);
-            p.Cantidad = p.Cantidad * p.CotizRespectoDolar;
-            return p;
+            Dolar d = new Dolar(p.Cantidad);
+            d.Cantidad = p.Cantidad / p.CotizRespectoDolar;
+            return d;
         }
 
         public static implicit operator Peso(double d)
@@ -97,7 +97,7 @@ namespace Moneda
             return p;
         }
 
-        public static Peso operator +(Dolar d, Peso p)
+        public static Peso operator +(Peso p, Dolar d)
         {
             p.Cantidad= p.Cantidad + (d.Cantidad * p.CotizRespectoDolar);
             return p;

@@ -23,7 +23,11 @@ namespace Moneda
                 {
                     throw new ValorInvalidoException("No se puede tener una cantidad negativa!");
                 }
-                this.cantidad = value;
+                else
+                {
+                    this.cantidad = value;
+                }
+                
             }
         }
             public double CotizRespectoDolar
@@ -38,7 +42,11 @@ namespace Moneda
                 {
                     throw new ValorInvalidoException("No se puede tener una cantidad negativa!");
                 }
-                this.cantidad = value;
+                else
+                {
+                    this.cotizRespectoDolar = value;
+                }
+                
             }
          }
         }

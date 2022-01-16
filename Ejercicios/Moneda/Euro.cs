@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Moneda
 {
-    class Euro : Dinero
+    public class Euro : Dinero
     {
         private Euro()
         {

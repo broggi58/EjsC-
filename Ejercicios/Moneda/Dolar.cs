@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Moneda
 {
-    class Dolar : Dinero
+   public class Dolar : Dinero
     {
         
 
@@ -24,8 +24,12 @@ namespace Moneda
 
         public static explicit operator Euro(Dolar d)
         {
-            Euro e = new Euro(d.Cantidad);
-            e.Cantidad = e.Cantidad / e.CotizRespectoDolar;
+            Euro e = new Euro(0);
+            Console.WriteLine(e.Cantidad);
+            Console.WriteLine(d.Cantidad);
+            Console.WriteLine(e.CotizRespectoDolar);
+            e.Cantidad = d.Cantidad / e.CotizRespectoDolar;
+            
             return e;
         }
 
