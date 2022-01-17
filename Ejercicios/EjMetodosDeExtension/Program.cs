@@ -9,11 +9,13 @@ namespace EjMetodosDeExtension
             long num = 0;
             Console.WriteLine("Ingresar numero");
 
-            string aux = Console.ReadLine();
+            
 
             try
             {
+                string aux = Console.ReadLine();
                 num = long.Parse(aux);
+                
             }
             catch (Exception e)
             {
@@ -22,6 +24,14 @@ namespace EjMetodosDeExtension
             Console.WriteLine("El numero ingresado es " + num);
 
             Console.WriteLine("La cantidad de digitos del numero es: "+num.CantidadDigitos());
+
+            string cadena = ".,;";
+            int signos = 0;
+            cadena.ContarSignos(out signos);
+
+            Console.WriteLine("La cantidad de signos en la cadena es: " + signos);
+
+
         }
     }
 
@@ -37,9 +47,18 @@ namespace EjMetodosDeExtension
             return retorno;
         }
 
-        public static string ContarSignos(this string cadena)
+        public static string ContarSignos(this string cadena,out int cantSignos)
         {
+            cantSignos = 0;
+            foreach(char c in cadena)
+            {
+                if(c=='.' || c==',' || c== ';')
+                {
+                    cantSignos++;
+                }
+            }
 
+            return cadena;
         }
 
     }
