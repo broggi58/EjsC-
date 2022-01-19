@@ -23,7 +23,8 @@ namespace PruebaEventos
         {
             if(miEvento!=null && rand.Next(0,2)==1)
             {
-                this.miEvento("El numero es 1");
+                 this.miEvento("El numero es 1");
+                
             }
         }
 
