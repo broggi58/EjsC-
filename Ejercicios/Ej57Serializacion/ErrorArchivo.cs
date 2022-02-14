@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ej57Serializacion
 {
-    class Class1
+    class ErrorArchivoException : Exception
     {
+        public ErrorArchivoException(string mensaje)
+        {
+
+        }
     }
 }
