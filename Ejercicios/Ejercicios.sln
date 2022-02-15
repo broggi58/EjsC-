@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej64Hilos}", "Ej64Hilos}\Ej
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej57Serializacion", "Ej57Serializacion\Ej57Serializacion.csproj", "{D38A9A81-FB26-4966-80CC-41768A3EEB8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej56Archivos", "Ej56Archivos\Ej56Archivos.csproj", "{FC493993-D4E6-4BAE-A60B-43E480675F5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej56Archivos", "Ej56Archivos\Ej56Archivos.csproj", "{FC493993-D4E6-4BAE-A60B-43E480675F5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaArchivosTexto", "BibliotecaArchivosTexto\BibliotecaArchivosTexto.csproj", "{71A218AD-AAC8-4BC4-A58D-9251D23C95A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibliotecaArchivosTexto", "BibliotecaArchivosTexto\BibliotecaArchivosTexto.csproj", "{71A218AD-AAC8-4BC4-A58D-9251D23C95A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej50Interfaces", "Ej50Interfaces\Ej50Interfaces.csproj", "{12AACCC6-6414-4470-80DD-BCB8BDBF78C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{71A218AD-AAC8-4BC4-A58D-9251D23C95A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A218AD-AAC8-4BC4-A58D-9251D23C95A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A218AD-AAC8-4BC4-A58D-9251D23C95A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12AACCC6-6414-4470-80DD-BCB8BDBF78C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12AACCC6-6414-4470-80DD-BCB8BDBF78C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12AACCC6-6414-4470-80DD-BCB8BDBF78C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12AACCC6-6414-4470-80DD-BCB8BDBF78C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

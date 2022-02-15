@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj": {}
+    "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\Moneda\\Moneda.csproj": {
+    "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\Moneda\\Moneda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\Moneda\\Moneda.csproj",
+        "projectUniqueName": "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\Moneda\\Moneda.csproj",
         "projectName": "Moneda",
-        "projectPath": "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\Moneda\\Moneda.csproj",
+        "projectPath": "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\Moneda\\Moneda.csproj",
         "packagesPath": "C:\\Users\\Brogg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\Moneda\\obj\\",
+        "outputPath": "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\Moneda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj": {
+    "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj",
+        "projectUniqueName": "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj",
         "projectName": "TestProjectConversiones",
-        "projectPath": "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj",
+        "projectPath": "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj",
         "packagesPath": "C:\\Users\\Brogg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\TestProjectConversiones\\obj\\",
+        "outputPath": "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\TestProjectConversiones\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\Moneda\\Moneda.csproj": {
-                "projectPath": "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\Moneda\\Moneda.csproj"
+              "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\Moneda\\Moneda.csproj": {
+                "projectPath": "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\Moneda\\Moneda.csproj"
               }
             }
           }

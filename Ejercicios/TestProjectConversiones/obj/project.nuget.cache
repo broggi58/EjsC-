@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XBdcsoIL24moDrueJUQP5TOxh/9Xsb9GGy8SoCPftvAThnR4LGZOr9YSruENhyilZZV1MhlniCZsLiIP6lkE4A==",
+  "dgSpecHash": "Mx+WuQkdigaYyeA09lMyYUU/d/RYiN/xJVOdYp+x2ps4nWq83zt3M3NCOCczifsl/cZC40CFm9HuiE5sH/1DzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brogg\\source\\repos\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj",
+  "projectFilePath": "C:\\Users\\Brogg\\source\\repos\\EjsCSharp\\Ejercicios\\TestProjectConversiones\\TestProjectConversiones.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brogg\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Brogg\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
